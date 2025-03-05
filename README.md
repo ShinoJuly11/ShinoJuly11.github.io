@@ -7,7 +7,16 @@
   <li>resize pictures for performance,</li>
   <li>convert some png files to transparent backgroound,</li>
   <li>CSS mobile users</li>
+  <li>Sticky navbar</li>
 </ul>
+
+<h1>Stuff i think i might add</h1>
+<ul>
+  <li>Committee member page</li>
+  <li>Jeremey Shrine</li>
+</ul>
+
+
 
 
 I need to finish this before vocafest...
