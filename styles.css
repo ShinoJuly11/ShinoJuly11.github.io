@@ -116,22 +116,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px; /* Adds spacing between sections */
 }
 
 .right {
   text-align: left;
-  margin-left: 10px;
 }
 
 .left {
   text-align: right;
-  margin-right: 10px;
-}
-
-.img_about{
-  width: 256px;
-  height: 420px;
 }
 
 /* about page centering */
@@ -147,61 +139,144 @@
   width: 100%;
 }
 
+.center-text{
+  text-align: center;
+}
+
+/* strikethrough? */
+
+.header-container {
+  position: relative;
+  display: inline-block;
+  width:100%;
+  text-align: center;
+}
+
+.header-container h1 {
+  position: relative;
+  z-index: 1; 
+  background-color: white;
+  padding: 10px; 
+  display: inline-block;
+}
+
+.header-container hr {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  border: none;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+}
+
+/* sticky navbar */
+
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: white;
+  z-index: 2;
+}
+
 /* The only bespoke code i wrote */
+
+.nav_list{
+  font-size: 24px;
+  text-decoration: none;
+  padding-top:10px;
+  padding-bottom:10px;
+  color: black;
+}
+
+.url-button{
+  text-decoration: none;
+  margin-top: 20px;
+  padding:20px;
+}
+
+.no-text-dec{
+  text-decoration: none;
+}
 
 .margin{
   margin-left:20%;
   margin-right:20%;
 }
 .margin-height{
-  margin-top:50px;
-  margin-bottom:50px;
+  margin-top:2%;
+  margin-bottom:2%;
 }
 
 .margin-left{
-  margin-left:50px;
+  margin-left:2%;
 }
 
-.float_right {
-  float: right;
-  text-align: right;
-}
-.float_left {
-  float: left;
-  text-align: left;
+/* Phones */
 
+@media (max-width:768px){
+
+  .nav_list{
+    font-size: 16px;
+  }
+
+  .right {
+    text-align:center;
+    
+  }
+  
+  .left {
+    text-align:center;
+    
+  }
+
+  .container {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items */
+    text-align: center; /* Center text */
+  }
+
+  .margin{
+    margin-left:0px;
+    margin-right:0px;
+  }
+
+  .margin-left{
+    margin-left:0px;
+  }
+
+  .center {
+    margin:auto;
+    width: 100%;
+  }
+
+}
+
+footer {
+  background: rgb(243, 243, 243);
+  
 }
 
 /* Community page css shenanigans */
 
 .tablink {
-  background-color: #555;
-  color: white;
+  background: white;
   float: left;
   border: none;
   outline: none;
-  cursor: pointer;
   padding: 14px 16px;
-  font-size: 17px;
   width: 25%;
-}
-
-.tablink:hover {
-  background-color: #777;
+  font-size:20px;
 }
 
 /* Style the tab content */
 .tabcontent {
-  color: white;
   display: none;
-  padding: 50px;
+  padding-top: 80px;
+  padding-bottom:30px;
   text-align: center;
 }
-
-#Cardiff {background-color:red;}
-#Warwick {background-color:orange;}
-#KCL {background-color:red;}
-#Abertay {background-color:blue;}
 
 /* Carousel Gallery */
 
