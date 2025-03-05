@@ -13,9 +13,10 @@
     <title>LJMU VocaSoc</title>
     <link rel="icon" type="image/x-icon" href="pictures/Icons/Vocaloid_LOGO/favicon.ico">
     </head>
+
     <header>
         <img src = "pictures/IMG_0162.jpeg" alt = "Vocaloid_LOGO" style = width:128px; height:128px;>
-        <section class = "right">
+        <section class = "float_right">
             <ul>
                 <img src="pictures/Icons/discord_icon.png" alt = "discord_icon" style= width:32px;height:32px;>
                 <a href="https://www.w3schools.com/" class = "poppins-light">Discord</a>
@@ -25,13 +26,14 @@
                 <a href="https://www.w3schools.com/" class = "poppins-light" >JMSU Website</a>
             </ul>
         </section>
-        
     </header>
+
     <nav>
         <a class = "poppins-Bold"> LJMU Vocaloid Society</a>
-        <div class="right">
+        <div class="float_right">
         <a class = "poppins-light" href ="#About">About</a> |
         <a class = "poppins-light" href ="#Gallery">Gallery</a> |
+        <a class = "poppins-light" href ="#Community">Community</a> |
         <a class = "poppins-light" href ="#Contacts">Contacts</a> |
         <a class = "poppins-light" href ="#">JMSU Website</a> 
         </div>
@@ -40,14 +42,18 @@
     <hr>
     <body>
         <section>
+            <br><br><br><br>
             <img src="pictures/Vocaloid_BANNER.png" alt="Vocaloid_BANNER" class = "center_img">
+            <br><br><br><br>
         </section>
 
-        <h1 id="About" class="poppins-semibold">
-            About
-        </h1>
+        <hr>
 
-        <section>
+        <section class = "margin">
+
+            <h1 id="About" class="poppins-semibold">
+                About
+            </h1>
 
             <div class="container">
                 <img src="pictures/About/miku1.png" alt="miku1" style=width:256px;height:420px;>
@@ -59,15 +65,24 @@
             </div>
             
             <div class="container">
-                <img src="pictures/About/teto1.png" alt="teto1" style=width:256px;height:420px;>
                 <p class="poppins-thin left">
                     For the year of 2024/25, we plan to meet once a week.
                     More accurate information can be found on our Discord and Instagram, where we post when and where we plan to meet.
                     It's a relaxed and fun way to connect with other fans!
                 </p>
+                <img src="pictures/About/teto1.png" alt="teto1" style=width:256px;height:420px;>
             </div>
 
+            <p class = "poppins-regular margin-height">
+                This society is a safe space for anyone who is interested in talking or learning about Vocaloids and other Vocal Synthesisers,
+                engaging in all the different activities we have planned or just having somewhere relaxed to hang out with people
+                while listening to music.
+                If you are into Japanese music in general (all the genres) and/or want to learn more about Vocaloids come and hang out with
+                all these nice people who are part of our society!
+            </p>
+
         </section>
+
 
         <hr>
         <section class = "margin">
@@ -107,6 +122,111 @@
             <script>currentSlide(1)</script> 
 
     </section>
+
+    <section class = "margin">
+        <!-- COMMUNITY SECTION -->
+
+        <h1 id="Community" class="poppins-semibold">
+            Community
+        </h1>
+
+        <p class="poppins-regular">
+            Vocaloid has a strong presence in universities across the United Kingdom,
+            with many student-led societies dedicated to the love of synthesized singers, music production, and digital art.
+            These societies provide a space for fans to connect, share their passion, and collaborate on creative projects,
+            whether it be making music, discussing Vocaloid games, or appreciating fan art.
+            Each university society hosts events, meetups, and online discussions,
+            allowing both newcomers and longtime fans to engage with the Vocaloid community.
+            As interest in Vocaloid continues to grow, more university societies are being established,
+            further expanding the reach of this vibrant and creative fandom.
+        </p>
+
+        <h1 class = "poppins-semibold">Vocaloid societies across the UK:</h1>
+
+        <button class="tablink" onclick="openCity('Cardiff', this, 'red')" id="defaultOpen">Cardiff</button>
+        <button class="tablink" onclick="openCity('Warwick', this, 'orange')">Warwick</button>
+        <button class="tablink" onclick="openCity('KCL', this, 'red')">KCL</button>
+        <button class="tablink" onclick="openCity('Abertay', this, 'blue')">Abertay</button>
+
+        <div id="Cardiff" class="tabcontent">
+            <div class = "container">
+                <img src="pictures/Uni/cardiffsoc.png" alt = "cardiffsoc.png" style=width:128px;height:128px;>
+                <div class = "margin-left">
+                    <h1 class = "poppins-Bold">Cardiff University</h1>
+                    <p class = "poppins-light"> 
+                        We are the Cardiff University Vocaloid Society!
+                        We aim to bring all those interested in vocaloid music together!
+                    </p>
+                </div>                     
+            </div>
+        </div>
+
+
+        <div id="Warwick" class="tabcontent">
+            <div class = "container">
+                <img src="pictures/Uni/warwicksoc.png" alt = "cardiffsoc.png" style=width:128px;height:128px;>
+                <div class = "margin-left">
+                    <h1 class = "poppins-Bold">Warwick University</h1>
+                    <p class = "poppins-light"> 
+                        Warwick Vocaloid Society (WVS) is Warwick's student-run society for anyone with an interest in vocaloid.
+                        The society is for anyone who would like to meet others who share these interests,
+                        or who just want to join us for one of the many events we run each academic year.
+                    </p>
+                </div>                     
+            </div>
+        </div>
+
+        <div id="KCL" class="tabcontent">
+            <div class = "container">
+                <img src="pictures/Uni/KCLsoc.png" alt = "KCLsoc.png" style=width:128px;height:128px;>
+                <div class = "margin-left">
+                    <h1 class = "poppins-Bold">King's College London</h1>
+                    <p class = "poppins-light"> 
+                        Newly formed vocaloid society in the heart of London!
+                        We are King's College London and we bring like-minded people together!
+                    </p>
+                </div>                     
+            </div>
+        </div>
+
+        <div id="KCL" class="tabcontent">
+            <div class = "container">
+                <img src="pictures/Uni/KCLsoc.png" alt = "KCLsoc.png" style=width:128px;height:128px;>
+                <div class = "margin-left">
+                    <h1 class = "poppins-Bold">King's College London</h1>
+                    <p class = "poppins-light"> 
+                        Newly formed vocaloid society in the heart of London!
+                        We are King's College London and we bring like-minded people together!
+                    </p>
+                </div>                     
+            </div>
+        </div>
+
+        <div id="Abertay" class="tabcontent">
+            <div class = "container">
+                <img src="pictures/Uni/Abertaysoc.png" alt = "Abertaysoc.png" style=width:128px;height:128px;>
+                <div class = "margin-left">
+                    <h1 class = "poppins-Bold">Abertay University</h1>
+                    <p class = "poppins-light"> 
+                        A society devoted to celebrating Miku and the wider Vocaloid/Vocal Synth fandom.
+                        Focusing on creating and sharing content within the space.
+                    </p>
+                </div>                     
+            </div>
+        </div>
+
+
+        <script>document.getElementById("defaultOpen").click();</script>
+
+        <br>
+        <p class = "poppins-light">
+            Click the link below to access our Linktree for more information.
+        </p>
+        <a href="https://www.w3schools.com/" class = "poppins-light">Linktree page</a>
+
+        <br><br><br><br>
+    </section>
+    
         <hr>
         <section class = "margin">
             <h1 id="Contacts" class="poppins-semibold">

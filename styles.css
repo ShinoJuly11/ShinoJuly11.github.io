@@ -129,11 +129,12 @@
   margin-right: 10px;
 }
 
-.img_about {
+.img_about{
   width: 256px;
   height: 420px;
 }
 
+/* about page centering */
 .center {
   margin:auto;
   width: 50%;
@@ -146,25 +147,61 @@
   width: 100%;
 }
 
+/* The only bespoke code i wrote */
+
 .margin{
   margin-left:20%;
   margin-right:20%;
 }
-
-@media only screen and (max-width: 600px) {
-  .right {
-    float: center;
-    text-align: center;
-    width: 100%;
-  
-  }
-  .left {
-    float: center;
-    text-align: center;
-    width: 100%;
-  
-  }
+.margin-height{
+  margin-top:50px;
+  margin-bottom:50px;
 }
+
+.margin-left{
+  margin-left:50px;
+}
+
+.float_right {
+  float: right;
+  text-align: right;
+}
+.float_left {
+  float: left;
+  text-align: left;
+
+}
+
+/* Community page css shenanigans */
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+#Cardiff {background-color:red;}
+#Warwick {background-color:orange;}
+#KCL {background-color:red;}
+#Abertay {background-color:blue;}
 
 /* Carousel Gallery */
 
