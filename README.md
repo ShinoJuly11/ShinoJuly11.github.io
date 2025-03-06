@@ -3,11 +3,11 @@
 
 <h1>Stuff i need to do:</h1>
 <ul>
-  <li>Change href links to respective links,</li>
+  <li>Change href links to respective links DONE</li>
   <li>resize pictures for performance,</li>
-  <li>convert some png files to transparent backgroound,</li>
-  <li>CSS mobile users</li>
-  <li>Sticky navbar</li>
+  <li>convert some png files to transparent background DONE</li>
+  <li>CSS mobile users DONE</li>
+  <li>Sticky navbar DONE</li>
 </ul>
 
 <h1>Stuff i think i might add</h1>
